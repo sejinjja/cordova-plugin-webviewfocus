@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-webviewfocus",
+  "version": "1.0.0",
+  "description": "Cordova Webviewfocus Plugin",
+  "cordova": {
+    "id": "cordova-plugin-webviewfocus",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sejinjja/cordova-plugin-webviewfocus"
+  },
+  "bugs": {
+    "url": "https://github.com/sejinjja/cordova-plugin-webviewfocus/issues"
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "reuqestFocus",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "sejiwork",
+  "license": "MIT",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ]
+}

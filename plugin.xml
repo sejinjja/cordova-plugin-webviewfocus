@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-webviewfocus" version="1.0.1">
+  <name>Webviewfocus</name>
+  <description>Cordova Webviewfocus Plugin</description>
+  <license>MIT</license>
+  <keywords>cordova,webviewfocus,reuqestFocus</keywords>
+  <js-module src="www/webviewfocus.js" name="webviewfocus">
+    <clobbers target="window.webviewfocus"/>
+  </js-module>
+  <platform name="android">
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="Webviewfocus">
+        <param name="android-package" value="kr.sejiwork.cordova.webviewfocus.Webviewfocus"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/Webviewfocus.java" target-dir="src/kr/sejiwork/cordova/webviewfocus"/>
+  </platform>
+
+</plugin>
